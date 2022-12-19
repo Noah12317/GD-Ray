@@ -1,0 +1,4427 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": false,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "pixelsRounding": true,
+    "projectUuid": "03bc4a84-164c-4c86-b68b-9f4debe00f3f",
+    "scaleMode": "nearest",
+    "sizeOnStartupMode": "adaptWidth",
+    "templateSlug": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "GD-Ray",
+    "description": "Raycaster for GDevelop",
+    "author": "",
+    "windowWidth": 800,
+    "windowHeight": 600,
+    "latestCompilationDirectory": "",
+    "maxFPS": 0,
+    "minFPS": 300,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "backgroundColor": 0,
+      "backgroundFadeInDuration": 0.2,
+      "backgroundImageResourceName": "",
+      "gdevelopLogoStyle": "light",
+      "logoAndProgressFadeInDuration": 0.2,
+      "logoAndProgressLogoFadeInDelay": 0.2,
+      "minDuration": 1.5,
+      "progressBarColor": 16777215,
+      "progressBarHeight": 20,
+      "progressBarMaxWidth": 200,
+      "progressBarMinWidth": 40,
+      "progressBarWidthPercent": 30,
+      "showGDevelopSplash": true,
+      "showProgressBar": true
+    },
+    "authorIds": [],
+    "categories": [],
+    "playableDevices": [],
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-0.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-10.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-11.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-13.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-17.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-17.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-18.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-18.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-19.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-19.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-20.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-20.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "col-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "col-1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-21.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-21.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-22.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-25.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-26.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-27.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-28.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-25-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-25-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-25-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-25-1-0.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-25-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-25-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite2-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite2-1-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-25-1-1-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-25-1-1-1.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-25-1-2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-25-1-2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-29.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-29.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-30.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-30.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-25-1-3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-25-1-3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewSprite-1-31.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewSprite-1-31.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "spritechar-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "spritechar-1.png",
+        "smoothed": false,
+        "userAdded": true
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [],
+  "layouts": [
+    {
+      "b": 146,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Raycast_32Demo",
+      "name": "Raycast Demo",
+      "r": 146,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 146,
+      "uiSettings": {
+        "grid": true,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": true,
+        "zoomFactor": 0.450000000000001,
+        "windowMask": false
+      },
+      "objectsGroups": [
+        {
+          "name": "Rayhit",
+          "objects": [
+            {
+              "name": "col"
+            }
+          ]
+        },
+        {
+          "name": "rotatables",
+          "objects": [
+            {
+              "name": "Player"
+            },
+            {
+              "name": "raybeam"
+            }
+          ]
+        }
+      ],
+      "variables": [
+        {
+          "folded": true,
+          "name": "rayposx",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "rayposy",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "fov",
+          "type": "number",
+          "value": 60
+        },
+        {
+          "folded": true,
+          "name": "rayids",
+          "type": "number",
+          "value": 0
+        },
+        {
+          "folded": true,
+          "name": "SeeRays",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 64,
+          "layer": "",
+          "name": "Player",
+          "persistentUuid": "37408080-1517-441d-8a04-986299e3f21c",
+          "width": 64,
+          "x": 352,
+          "y": 320,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "col",
+          "persistentUuid": "6a49bf36-9c9b-446e-95ed-29e13831dee4",
+          "width": 928,
+          "x": 400,
+          "y": 0,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 128,
+          "layer": "",
+          "name": "col",
+          "persistentUuid": "e9b52d5b-0c55-4ccc-b9b2-16a8c14bf5c7",
+          "width": 928,
+          "x": 400,
+          "y": 608,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 544,
+          "layer": "",
+          "name": "col",
+          "persistentUuid": "5573e19d-96e5-4f3c-bf6f-5908543a85b4",
+          "width": 32,
+          "x": 816,
+          "y": 272,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 544,
+          "layer": "",
+          "name": "col",
+          "persistentUuid": "d51688cd-dfc8-4a22-aa25-3bb349dcd22c",
+          "width": 32,
+          "x": -48,
+          "y": 304,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 384,
+          "layer": "bg",
+          "name": "bg",
+          "persistentUuid": "ff2a2d53-b5b5-4284-a056-caaca77c1c10",
+          "width": 1984,
+          "x": -512,
+          "y": -96,
+          "zOrder": 0,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 480,
+          "layer": "bg",
+          "name": "bg",
+          "persistentUuid": "ce33db6e-0751-42a0-b0f8-43b72c40afd4",
+          "width": 1824,
+          "x": -512,
+          "y": 288,
+          "zOrder": 0,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 1
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 192,
+          "layer": "",
+          "name": "col",
+          "persistentUuid": "cbe0a662-fce5-4867-9f2e-bb366159d5cf",
+          "width": 64,
+          "x": 608,
+          "y": 160,
+          "zOrder": 1674293057,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "col",
+          "persistentUuid": "b7168b8b-4b34-4400-8bf6-39437e2e5ad1",
+          "width": 0,
+          "x": 288,
+          "y": 160,
+          "zOrder": 1674293059,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "col",
+          "persistentUuid": "ad48cf3f-a13e-4ec0-b348-c30b7cc805da",
+          "width": 0,
+          "x": 288,
+          "y": 448,
+          "zOrder": 1674293059,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "col",
+          "persistentUuid": "47f9c350-7e86-41a3-aee2-b9202cb3cd8f",
+          "width": 64,
+          "x": 608,
+          "y": 464,
+          "zOrder": 1674293057,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 160,
+          "layer": "",
+          "name": "col",
+          "persistentUuid": "708abd55-468d-46b3-97c2-47cd51eb406b",
+          "width": 128,
+          "x": 32,
+          "y": 304,
+          "zOrder": 1674293057,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "col",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "NewSprite2-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "col",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "col-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 48,
+                            "y": 4
+                          },
+                          {
+                            "x": 60,
+                            "y": 16
+                          },
+                          {
+                            "x": 64,
+                            "y": 32
+                          },
+                          {
+                            "x": 60,
+                            "y": 48
+                          },
+                          {
+                            "x": 48,
+                            "y": 60
+                          },
+                          {
+                            "x": 32,
+                            "y": 64
+                          },
+                          {
+                            "x": 16,
+                            "y": 60
+                          },
+                          {
+                            "x": 4,
+                            "y": 48
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          },
+                          {
+                            "x": 4,
+                            "y": 16
+                          },
+                          {
+                            "x": 16,
+                            "y": 4
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "raystop",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "Player",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "fovcount",
+              "type": "number",
+              "value": 120
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 12,
+                        "y": 13
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "raybeam",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": true,
+          "variables": [
+            {
+              "folded": true,
+              "name": "angle",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-16.png",
+                      "points": [
+                        {
+                          "name": "Point",
+                          "x": 2,
+                          "y": 1
+                        }
+                      ],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 1
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 1
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "NewSprite",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "fogshade",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-31.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 2,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "NewSprite2-1-0",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-1-0.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "NewSprite-1-25",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-25-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 2,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": []
+                }
+              ]
+            },
+            {
+              "name": "NewSprite-1-25-1-1",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite-1-25-1-1-1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 1,
+                        "y": 16
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "name": "bg",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "NewSprite2",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-1-2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "NewSprite2-1-3",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.07999999821186066,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "NewSprite2-1-3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Player Controls",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "This First event is to set a wall far in front of the player so the rays have something to hit if you are far away from a wall, this way the game doesnt freeze.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Animation"
+                  },
+                  "parameters": [
+                    "col",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ChangeHeight"
+                  },
+                  "parameters": [
+                    "col",
+                    "=",
+                    "9999"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreAutour"
+                  },
+                  "parameters": [
+                    "col",
+                    "Player",
+                    "1000",
+                    "Player.Angle()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "col",
+                    "=",
+                    "Player.Angle()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "a"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Player.Angle()+90",
+                    "-750",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "d"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Player.Angle()+90",
+                    "750",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "w"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Player.Angle()",
+                    "750",
+                    "0"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "s"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AddForceAL"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Player.Angle()",
+                    "-750",
+                    "0"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Make rays, and also update them",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "raybeam",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "raybeam",
+                    "=",
+                    "Player.CenterX()",
+                    "=",
+                    "Player.CenterY()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "raybeam",
+                    "=",
+                    "Player.Angle()+raybeam.Variable(angle)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "DepartScene"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "0.7",
+                    "\"\"",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "col",
+                    "0",
+                    "0",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangeAnimation"
+                  },
+                  "parameters": [
+                    "col",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "fov",
+                    "=",
+                    "8"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Repeat",
+                  "repeatExpression": "120",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "raybeam",
+                        "Player.CenterX()",
+                        "Player.CenterY()",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "raybeam",
+                        "angle",
+                        "=",
+                        "Player.Angle()+(Player.Variable(fovcount)/ScreenWidth())*ScreenWidth()/5"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "NewSprite",
+                        "0",
+                        "0",
+                        "\"render\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "raybeam",
+                        "id",
+                        "=",
+                        "Variable(rayids)+1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "NewSprite",
+                        "id",
+                        "=",
+                        "Variable(rayids)+1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "rayids",
+                        "+",
+                        "1"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Player",
+                        "fovcount",
+                        "-",
+                        "2"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Run events right before the frame is rendered",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "folded": true,
+              "name": "Ray Collision",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "infiniteLoopWarning": true,
+                  "type": "BuiltinCommonInstructions::While",
+                  "whileConditions": [
+                    {
+                      "type": {
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "raybeam",
+                        "col",
+                        "",
+                        "",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Always"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeScaleWidth"
+                      },
+                      "parameters": [
+                        "raybeam",
+                        "-",
+                        "115"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "infiniteLoopWarning": true,
+                  "type": "BuiltinCommonInstructions::While",
+                  "whileConditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "CollisionNP"
+                      },
+                      "parameters": [
+                        "raybeam",
+                        "col",
+                        "",
+                        "",
+                        "no"
+                      ]
+                    }
+                  ],
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Always"
+                      },
+                      "parameters": [
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeScaleWidth"
+                      },
+                      "parameters": [
+                        "raybeam",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Always"
+                  },
+                  "parameters": [
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MousePointerLock::RequestPointerLock"
+                  },
+                  "parameters": [
+                    "",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "Player",
+                    "+",
+                    "MousePointerLock::MovementX()/3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "col",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "colorB": 228,
+              "colorG": 176,
+              "colorR": 74,
+              "creationTime": 0,
+              "name": "Render3D",
+              "source": "",
+              "type": "BuiltinCommonInstructions::Group",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "raybeam",
+                  "conditions": [],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::ForEach",
+                      "object": "NewSprite",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Always"
+                          },
+                          "parameters": [
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "raybeam",
+                            "id",
+                            "=",
+                            "NewSprite.Variable(id)"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "CollisionNP"
+                          },
+                          "parameters": [
+                            "raybeam",
+                            "col",
+                            "",
+                            "",
+                            "no"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreX"
+                          },
+                          "parameters": [
+                            "NewSprite",
+                            "=",
+                            "raybeam.Angle()*6"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeScale"
+                          },
+                          "parameters": [
+                            "NewSprite",
+                            "=",
+                            "(30000/(raybeam.XFromAngleAndDistance(raybeam.Variable(angle),raybeam.Width()*50)))"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SetCameraCenterX"
+                          },
+                          "parameters": [
+                            "",
+                            "=",
+                            "(raybeam.Angle()*6)+142.5",
+                            "\"render\"",
+                            ""
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MettreY"
+                          },
+                          "parameters": [
+                            "NewSprite",
+                            "=",
+                            "300"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "NewSprite",
+                            "=",
+                            "100/raybeam.Width()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangeAnimation"
+                          },
+                          "parameters": [
+                            "NewSprite",
+                            "=",
+                            "col.Animation()"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ZoomCamera"
+                          },
+                          "parameters": [
+                            "",
+                            "ScreenWidth()/300",
+                            "\"render\"",
+                            ""
+                          ]
+                        }
+                      ],
+                      "events": [
+                        {
+                          "colorB": 228,
+                          "colorG": 176,
+                          "colorR": 74,
+                          "creationTime": 0,
+                          "name": "Distance Shading",
+                          "source": "",
+                          "type": "BuiltinCommonInstructions::Group",
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                  },
+                                  "parameters": [
+                                    "200/raybeam.Width()*150",
+                                    ">",
+                                    "255"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ChangeColor"
+                                  },
+                                  "parameters": [
+                                    "NewSprite",
+                                    "ToString(255)+\";\"+ToString(255)+\";\"+ToString(255)"
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "value": "BuiltinCommonInstructions::CompareNumbers"
+                                  },
+                                  "parameters": [
+                                    "200/raybeam.Width()*150",
+                                    "<=",
+                                    "255"
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "ChangeColor"
+                                  },
+                                  "parameters": [
+                                    "NewSprite",
+                                    "ToString(200/raybeam.Width()*150)+\";\"+ToString(200/raybeam.Width()*150)+\";\"+ToString(200/raybeam.Width()*150)"
+                                  ]
+                                }
+                              ]
+                            }
+                          ],
+                          "parameters": []
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": []
+            }
+          ],
+          "parameters": []
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "folded": true,
+          "name": "Debug stuff",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "r"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ToggleSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SeeRays"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SeeRays",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ShowLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "SeeRays",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "HideLayer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"\""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 150995058,
+          "ambientLightColorG": 6057056,
+          "ambientLightColorR": 14545400,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "bg",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 8330520,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "render",
+          "visibility": true,
+          "cameras": [],
+          "effects": []
+        },
+        {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 10006472,
+          "ambientLightColorR": 16,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "FPSDisplayer",
+          "type": "FPS::FPSDisplayer"
+        }
+      ]
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "author": "Jeroen Erkens, Tristan Rhodes (https://victrisgames.itch.io/)",
+      "category": "Camera",
+      "extensionNamespace": "",
+      "fullName": "Follow multiple objects with camera",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLWNhbWVyYS1zd2l0Y2gtb3V0bGluZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0yMCA0SDE2LjhMMTUgMkg5TDcuMiA0SDRDMi45IDQgMiA0LjkgMiA2VjE4QzIgMTkuMSAyLjkgMjAgNCAyMEgyMEMyMS4xIDIwIDIyIDE5LjEgMjIgMThWNkMyMiA0LjkgMjEuMSA0IDIwIDRNOS45IDRIMTQuMUwxNS45IDZIMjBWMThINFY2SDguMU0xNSAxMUg5VjguNUw1LjUgMTJMOSAxNS41VjEzSDE1VjE1LjVMMTguNSAxMkwxNSA4LjVWMTFaIiAvPjwvc3ZnPg==",
+      "name": "FollowObjectsWithCamera",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/camera-switch-outline.svg",
+      "shortDescription": "Change the zoom and position of the camera to keep all instances of an object (or object group) on the screen.",
+      "version": "0.1.2",
+      "description": [
+        "This action is meant to be run on every frame (i.e: usually you would use it without conditions, or just conditions picking the appropriate objects to track).",
+        "",
+        "- Use an object group to track multiple objects.",
+        "- Only run on one layer at a time.  If multiple layers need to move the same way, create events that copy CameraX, CameraY, and CameraZoom values.",
+        "- This can also be used on a single object instance to move the camera smoothly."
+      ],
+      "origin": {
+        "identifier": "FollowObjectsWithCamera",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "camera",
+        "zoom",
+        "follow",
+        "objects",
+        "multiple",
+        "group",
+        "move",
+        "pan"
+      ],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1",
+        "6dgsuavVqJgA9oqJ2ypmkXZWuyY2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Change the zoom and position of the camera to keep all instances of an object (or object group) on the screen.",
+          "fullName": "Follow multiple objects with camera",
+          "functionType": "Action",
+          "name": "FollowObjectsWithCamera",
+          "sentence": "Move camera on layer _PARAM6_ to keep instances of _PARAM1_ on the screen. Use a margin of _PARAM2_px horizontally and _PARAM3_px vertically. Use a zoom between _PARAM4_ and _PARAM5_.  Move the camera at a speed of _PARAM8_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Set default values if nothing is entered",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.MaxZoom",
+                    "=",
+                    "GetArgumentAsNumber(\"MaxZoom\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Egal"
+                  },
+                  "parameters": [
+                    "GetArgumentAsNumber(\"MaxZoom\")",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.MaxZoom",
+                    "=",
+                    "1"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Egal"
+                  },
+                  "parameters": [
+                    "GetArgumentAsNumber(\"LerpSpeed\")",
+                    ">",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.LerpSpeed",
+                    "=",
+                    "GetArgumentAsNumber(\"LerpSpeed\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Egal"
+                  },
+                  "parameters": [
+                    "GetArgumentAsNumber(\"LerpSpeed\")",
+                    "<=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.LerpSpeed",
+                    "=",
+                    "0.05"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Set initial values based on an object instance.  This is used as a valid starting point for comparisons, so it doesn't matter which instance is used.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.MinX",
+                    "=",
+                    "Object.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.MaxX",
+                    "=",
+                    "Object.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.MinY",
+                    "=",
+                    "Object.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.MaxY",
+                    "=",
+                    "Object.Y()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Loop through every instance of object (or object group) and determine the max position values used for left, right, top and bottom.\nRecord the height and width of the objects that are on the edges.  These values will be used to increase the camera viewport to include the entire object.",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "Object",
+              "conditions": [],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "<=",
+                        "Variable(__FollowObjects.MinX)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__FollowObjects.MinX",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__FollowObjects.LeftMostObjectWidth",
+                        "=",
+                        "max(Variable(__FollowObjects.LeftMostObjectWidth),Object.Width())"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosX"
+                      },
+                      "parameters": [
+                        "Object",
+                        ">=",
+                        "Variable(__FollowObjects.MaxX)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__FollowObjects.MaxX",
+                        "=",
+                        "Object.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__FollowObjects.RightMostObjectWidth",
+                        "=",
+                        "max(Variable(__FollowObjects.RightMostObjectWidth),Object.Width())"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "<=",
+                        "Variable(__FollowObjects.MinY)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__FollowObjects.MinY",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__FollowObjects.TopMostObjectHeight",
+                        "=",
+                        "max(Variable(__FollowObjects.TopMostObjectHeight),Object.Height())"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "PosY"
+                      },
+                      "parameters": [
+                        "Object",
+                        ">=",
+                        "Variable(__FollowObjects.MaxY)"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__FollowObjects.MaxY",
+                        "=",
+                        "Object.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "__FollowObjects.BottomMostObjectHeight",
+                        "=",
+                        "max(Variable(__FollowObjects.BottomMostObjectHeight),Object.Height())"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Move camera to the center location",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "lerp(CameraX(GetArgumentAsString(\"Layer\"),GetArgumentAsNumber(\"Camera\")), (Variable(__FollowObjects.MinX) + Variable(__FollowObjects.MaxX)) / 2, Variable(__FollowObjects.LerpSpeed))",
+                    "GetArgumentAsString(\"Layer\")",
+                    "GetArgumentAsNumber(\"Camera\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetCameraY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "lerp(CameraY(GetArgumentAsString(\"Layer\"),GetArgumentAsNumber(\"Camera\")), (Variable(__FollowObjects.MinY) + Variable(__FollowObjects.MaxY)) / 2, Variable(__FollowObjects.LerpSpeed))",
+                    "GetArgumentAsString(\"Layer\")",
+                    "GetArgumentAsNumber(\"Camera\")"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Zoom in or out to keep all object instances on screen",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.CameraWidth",
+                    "=",
+                    "abs(Variable(__FollowObjects.MaxX) - Variable(__FollowObjects.MinX)) + Variable(__FollowObjects.LeftMostObjectWidth) + Variable(__FollowObjects.RightMostObjectWidth) + GetArgumentAsNumber(\"HorizontalBuffer\")*2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.CameraHeight",
+                    "=",
+                    "abs(Variable(__FollowObjects.MaxY) - Variable(__FollowObjects.MinY)) + Variable(__FollowObjects.TopMostObjectHeight) + Variable(__FollowObjects.BottomMostObjectHeight) + GetArgumentAsNumber(\"VerticalBuffer\")*2"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.CameraZoom",
+                    "=",
+                    "min(SceneWindowHeight() / Variable(__FollowObjects.CameraHeight), SceneWindowWidth() / Variable(__FollowObjects.CameraWidth))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Adjust zoom to stay within min/max values",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarScene"
+                  },
+                  "parameters": [
+                    "__FollowObjects.CameraZoom",
+                    "=",
+                    "clamp(Variable(__FollowObjects.CameraZoom),GetArgumentAsNumber(\"MinZoom\"),Variable(__FollowObjects.MaxZoom))"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Comment",
+              "color": {
+                "b": 109,
+                "g": 230,
+                "r": 255,
+                "textB": 0,
+                "textG": 0,
+                "textR": 0
+              },
+              "comment": "Change camera zoom",
+              "comment2": ""
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ZoomCamera"
+                  },
+                  "parameters": [
+                    "",
+                    "lerp(CameraZoom(GetArgumentAsString(\"Layer\"),GetArgumentAsNumber(\"Camera\")),Variable(__FollowObjects.CameraZoom),Variable(__FollowObjects.LerpSpeed))",
+                    "GetArgumentAsString(\"Layer\")",
+                    "GetArgumentAsNumber(\"Camera\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object (or Object group)",
+              "name": "Object",
+              "type": "objectList"
+            },
+            {
+              "description": "Extra space on sides of screen",
+              "longDescription": "Each side will include this buffer",
+              "name": "HorizontalBuffer",
+              "type": "expression"
+            },
+            {
+              "description": "Extra space on top and bottom of screen",
+              "longDescription": "Each side will include this buffer",
+              "name": "VerticalBuffer",
+              "type": "expression"
+            },
+            {
+              "description": "Minimum zoom level ",
+              "longDescription": "Limit how far the camera will zoom OUT",
+              "name": "MinZoom",
+              "type": "expression"
+            },
+            {
+              "description": "Maximum zoom level (Default: 1)",
+              "longDescription": "Limit how far the camera will zoom IN",
+              "name": "MaxZoom",
+              "type": "expression"
+            },
+            {
+              "description": "Layer ",
+              "longDescription": "Use \"\" for base layer",
+              "name": "Layer",
+              "type": "layer"
+            },
+            {
+              "description": "Camera",
+              "name": "Camera",
+              "type": "expression"
+            },
+            {
+              "description": "Camera move speed (Range: 0 to 1) (Default: 0.05)",
+              "longDescription": "Percent of distance to destination that will be travelled each frame (used by lerp function)",
+              "name": "LerpSpeed",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "General",
+      "extensionNamespace": "",
+      "fullName": "Sway",
+      "helpPath": "https://liluo.io/bubble/swayexamples",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXN3YXAtaG9yaXpvbnRhbC12YXJpYW50IiB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTQsNkw4LDEwVjdIMTZBMiwyIDAgMCwxIDE4LDlBMiwyIDAgMCwxIDE2LDExSDhBNCw0IDAgMCwwIDQsMTVBNCw0IDAgMCwwIDgsMTlIMTZWMjJMMjAsMThMMTYsMTRWMTdIOEEyLDIgMCAwLDEgNiwxNUEyLDIgMCAwLDEgOCwxM0gxNkE0LDQgMCAwLDAgMjAsOUE0LDQgMCAwLDAgMTYsNUg4VjJMNCw2WiIgLz48L3N2Zz4=",
+      "name": "Sway",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/swap-horizontal-variant.svg",
+      "shortDescription": "A behavior to make objects (like grass) sway randomly.",
+      "version": "1.0.0",
+      "description": [
+        "Use the Sway behavior to make multiple instances of an object sway at different times. For example, this can give a grass object an animated look that is always changing and is different to the other grass objects.",
+        "",
+        "",
+        "![Imgur](https://i.imgur.com/dOyTgbN.gifv)",
+        "",
+        "",
+        "Please note:",
+        "This behavior uses *For each object* events so be aware of slow downs that may occur from many instances of Sway objects.",
+        "The behavior works best if both the *Center* and *Origin* points are at the base of the object.",
+        "",
+        "Sway works by:",
+        "- angling (pivoting) the object to the left and right while also changing its Y scale up and down",
+        "- the angle and Y scale tween durations will take a random amount of time from a range of values",
+        "- it's this random tween duration that creates the unique movement pattern for each instance of the object.",
+        "",
+        "How to use:",
+        "- set left and right angles (degrees) for the object to sway to",
+        "- for equal sway on each side set the left angle to the negative number of the right angle",
+        "- eg. set left angle to -5 and right angle to 5",
+        "",
+        "- set a minimum and maximum Y scale amount for the object to stretch and shrink to",
+        "- set to 1 for no change, more than 1 for stretching and less than 1 for shrinking",
+        "",
+        "- set a range for the angle and Y scale tween times (seconds)",
+        "- the tweens will take a random amount of time between the minimum and maximum values",
+        ""
+      ],
+      "origin": {
+        "identifier": "Sway",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "sway",
+        "wobble",
+        "shake",
+        "grass",
+        "plant",
+        "snake",
+        "flame",
+        "fire",
+        "candle"
+      ],
+      "authorIds": [
+        "d3W2ZbWOpKRw2rXfBTscZztY7GH2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Sway multiple instances of an object at different times - useful for random grass swaying.",
+          "fullName": "Sway",
+          "name": "Sway",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onCreated",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 102,
+                    "g": 210,
+                    "r": 233,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Start the tweens",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Angle the object to the right",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Increase the y scale of the object",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectScaleYTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMax\"",
+                        "Object.Behavior::PropertyYScaleMax()",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(Object.Behavior::PropertyYScaleMin() * 1000,Object.Behavior::PropertyYScaleTimeMax() * 1000)",
+                        "",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectAngleTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleRight\"",
+                        "Object.Behavior::PropertyAngleRight()",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(Object.Behavior::PropertyAngleTimeMin() * 1000,Object.Behavior::PropertyAngleTimeMax() * 1000)",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPostEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Angle the object to the left",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleRight\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleRight\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectAngleTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleLeft\"",
+                        "Object.Behavior::PropertyAngleLeft()",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(Object.Behavior::PropertyAngleTimeMin() * 1000,Object.Behavior::PropertyAngleTimeMax() * 1000)",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Angle the object to the right",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleLeft\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleLeft\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectAngleTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"AngleRight\"",
+                        "Object.Behavior::PropertyAngleRight()",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(Object.Behavior::PropertyAngleTimeMin() * 1000,Object.Behavior::PropertyAngleTimeMax() * 1000)",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Decrease the y scale of the object",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMax\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMax\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectScaleYTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMin\"",
+                        "Object.Behavior::PropertyYScaleMin()",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(Object.Behavior::PropertyYScaleTimeMin() * 1000,Object.Behavior::PropertyYScaleTimeMax() * 1000)",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Comment",
+                  "color": {
+                    "b": 109,
+                    "g": 230,
+                    "r": 255,
+                    "textB": 0,
+                    "textG": 0,
+                    "textR": 0
+                  },
+                  "comment": "Increase the y scale of the object",
+                  "comment2": ""
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "Tween::HasFinished"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMin\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Tween::RemoveTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMin\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Tween::AddObjectScaleYTween"
+                      },
+                      "parameters": [
+                        "Object",
+                        "TweenBehavior",
+                        "\"YScaleMax\"",
+                        "Object.Behavior::PropertyYScaleMax()",
+                        "\"easeInOutSine\"",
+                        "RandomInRange(Object.Behavior::PropertyYScaleTimeMin() * 1000,Object.Behavior::PropertyYScaleTimeMax() * 1000)",
+                        "",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set sway angle left and right.",
+              "fullName": "Set sway angle left and right",
+              "functionType": "Action",
+              "group": "Sway angle",
+              "name": "ChangeSwayAngle",
+              "sentence": "Sway the angle of _PARAM0_ to _PARAM2_° to the left and to _PARAM3_° to the right",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Sway::Sway::SetPropertyAngleLeft"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"AngleLeftChanged\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sway::Sway::SetPropertyAngleRight"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"AngleRightChanged\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Angle to the left (degrees) - Use negative number",
+                  "name": "AngleLeftChanged",
+                  "type": "expression"
+                },
+                {
+                  "description": "Angle to the right (degrees) - Use positive number",
+                  "name": "AngleRightChanged",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set sway angle time range.",
+              "fullName": "Set sway angle time range",
+              "functionType": "Action",
+              "group": "Sway angle",
+              "name": "ChangeSwayAngleTime",
+              "sentence": "Tween angle time range for _PARAM0_, set minimum to _PARAM2_ seconds and maximum to _PARAM3_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Sway::Sway::SetPropertyAngleTimeMin"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"AngleTimeMinChanged\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sway::Sway::SetPropertyAngleTimeMax"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"AngleTimeMaxChanged\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Angle tween time minimum (seconds)",
+                  "name": "AngleTimeMinChanged",
+                  "type": "expression"
+                },
+                {
+                  "description": "Angle tween time maximum (seconds)",
+                  "name": "AngleTimeMaxChanged",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set sway Y scale mininum and maximum.",
+              "fullName": "Set sway Y scale mininum and maximum",
+              "functionType": "Action",
+              "group": "Sway Y scale",
+              "name": "ChangeSwayYScale",
+              "sentence": "Sway the Y scale of _PARAM0_ from _PARAM2_ to _PARAM3_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Sway::Sway::SetPropertyYScaleMin"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"YScaleMinChanged\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sway::Sway::SetPropertyYScaleMax"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"YScaleMaxChanged\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Minimum Y scale",
+                  "name": "YScaleMinChanged",
+                  "type": "expression"
+                },
+                {
+                  "description": "Maximum Y scale",
+                  "name": "YScaleMaxChanged",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Set Y scale time range.",
+              "fullName": "Set sway Y scale time range",
+              "functionType": "Action",
+              "group": "Sway Y scale",
+              "name": "ChangeSwayYScaleTime",
+              "sentence": "Tween Y scale time range for _PARAM0_, set minimum to _PARAM2_ seconds and maximum to _PARAM3_ seconds",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Sway::Sway::SetPropertyYScaleTimeMax"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"YScaleTimeMaxChanged\")"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sway::Sway::SetPropertyYScaleTimeMin"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"YScaleTimeMinChanged\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "Sway::Sway",
+                  "type": "behavior"
+                },
+                {
+                  "description": "Y scale tween time minimum (seconds)",
+                  "name": "YScaleTimeMinChanged",
+                  "type": "expression"
+                },
+                {
+                  "description": "Y scale tween time maximum (seconds)",
+                  "name": "YScaleTimeMaxChanged",
+                  "type": "expression"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "-5",
+              "type": "Number",
+              "label": "Maximum angle to the left (in degrees) - Use a negative number",
+              "description": "",
+              "group": "Angle",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "AngleLeft"
+            },
+            {
+              "value": "5",
+              "type": "Number",
+              "label": "Maximum angle to the right (in degrees) - Use a positive number",
+              "description": "",
+              "group": "Angle",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "AngleRight"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Mininum value for random tween time range for angle (seconds)",
+              "description": "",
+              "group": "Angle",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "AngleTimeMin"
+            },
+            {
+              "value": "3",
+              "type": "Number",
+              "label": "Maximum value for random tween time range for angle (seconds)",
+              "description": "",
+              "group": "Angle",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "AngleTimeMax"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Minimum Y scale amount",
+              "description": "",
+              "group": "Y scale",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "YScaleMin"
+            },
+            {
+              "value": "1.2",
+              "type": "Number",
+              "label": "Maximum Y scale amount",
+              "description": "",
+              "group": "Y scale",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "YScaleMax"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Mininum value for random tween time range for Y scale (seconds)",
+              "description": "",
+              "group": "Y scale",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "YScaleTimeMin"
+            },
+            {
+              "value": "3",
+              "type": "Number",
+              "label": "Maximum value for random tween time range for Y scale (seconds)",
+              "description": "",
+              "group": "Y scale",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "YScaleTimeMax"
+            },
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Sway uses the tween behavior",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Tween::TweenBehavior"
+              ],
+              "hidden": false,
+              "name": "TweenBehavior"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "Ahnaf30e",
+      "category": "Advanced",
+      "extensionNamespace": "",
+      "fullName": "FPS",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBkPSJNMzAsM2gtMkg0SDJDMS40LDMsMSwzLjQsMSw0czAuNCwxLDEsMWgxdjE2YzAsMC42LDAuNCwxLDEsMWg5LjhsLTUuNSw2LjNjLTAuNCwwLjQtMC4zLDEsMC4xLDEuNEM4LjUsMjkuOSw4LjgsMzAsOSwzMA0KCWMwLjMsMCwwLjYtMC4xLDAuOC0wLjNsNS4yLTZWMjhjMCwwLjYsMC40LDEsMSwxczEtMC40LDEtMXYtNC4zbDUuMiw2YzAuMiwwLjIsMC41LDAuMywwLjgsMC4zYzAuMiwwLDAuNS0wLjEsMC43LTAuMg0KCWMwLjQtMC40LDAuNS0xLDAuMS0xLjRMMTguMiwyMkgyOGMwLjYsMCwxLTAuNCwxLTFWNWgxYzAuNiwwLDEtMC40LDEtMVMzMC42LDMsMzAsM3ogTTI0LjgsOC42bC00LDZjLTAuMywwLjQtMC44LDAuNi0xLjMsMC4zDQoJTDE1LjgsMTNoLTMuNGwtMy43LDMuN0M4LjUsMTYuOSw4LjMsMTcsOCwxN3MtMC41LTAuMS0wLjctMC4zYy0wLjQtMC40LTAuNC0xLDAtMS40bDQtNGMwLjItMC4yLDAuNC0wLjMsMC43LTAuM2g0DQoJYzAuMiwwLDAuMywwLDAuNCwwLjFsMy4yLDEuNmwzLjUtNS4zYzAuMy0wLjUsMC45LTAuNiwxLjQtMC4zQzI1LDcuNSwyNS4xLDguMSwyNC44LDguNnoiLz4NCjwvc3ZnPg0K",
+      "name": "FPS",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/SEO/SEO_board_performance_profit.svg",
+      "shortDescription": "Adds expressions and a behavior to get and display the game FPS.",
+      "version": "1.0.0",
+      "description": [
+        "Adds expressions to get the current FPS and a behavior to display the current FPS easily.",
+        "",
+        "The FPS, Frames Per Second, describes how many times in the last second your game got updated. An update consists in running all the behaviors, objects, and events sheet code, before rendering the new game state into the game window. The higher the FPS, the more it manages to update in a second, influencing how fluid and performant your game looks."
+      ],
+      "origin": {
+        "identifier": "FPS",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "fps",
+        "frames",
+        "per",
+        "second",
+        "performance",
+        "speed"
+      ],
+      "authorIds": [
+        "onPsboRtDkUHNOsx7OPr8R8G1oj2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Return your game's current FPS count.",
+          "fullName": "FPS (Frames per second)",
+          "functionType": "Expression",
+          "name": "FPS",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "ceil(1/TimeDelta())"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Return your game's current FPS count, with more control over rounding.",
+          "fullName": "Precise FPS (Frames per second)",
+          "functionType": "Expression",
+          "name": "PreciseFPS",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "(ceil(1/TimeDelta()*(GetArgumentAsNumber(\"accuracy\") * 10))) / (GetArgumentAsNumber(\"accuracy\") * 10)"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "The accuracy of the FPS",
+              "longDescription": "This tells how many numbers after the period should be shown.",
+              "name": "accuracy",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Makes a text object display the current FPS.",
+          "fullName": "FPS Displayer",
+          "name": "FPSDisplayer",
+          "objectType": "TextObject::Text",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "TextObject::String"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::Propertyprefix() + ToString(FPS::FPS())"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "TextObject::Text",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "FPS::FPSDisplayer",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "FPS: ",
+              "type": "String",
+              "label": "The prefix before the FPS count",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "prefix"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "",
+      "category": "Advanced",
+      "extensionNamespace": "",
+      "fullName": "Object picking tools",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0ibWRpLXNlbGVjdGlvbi1lbGxpcHNlLWFycm93LWluc2lkZSIgd2lkdGg9IjI0IiBoZWlnaHQ9IjI0IiB2aWV3Qm94PSIwIDAgMjQgMjQiPjxwYXRoIGQ9Ik0xMS4yIDRDOS45NCA0LjEyIDguNzIgNC41MyA3LjY0IDUuMkw2LjY0IDMuNDdDNy45NSAyLjY0IDkuNDUgMi4xMyAxMSAyTTE3LjUzIDYuMjVDMTYuNjIgNS4zOSAxNS41MyA0LjczIDE0LjM0IDQuMzNMMTUgMi4zOUMxNi41IDIuODQgMTcuODkgMy42NiAxOSA0Ljc4TTUuMzQgNy40MUM0LjY0IDguNDQgNC4xOSA5LjYgNCAxMC44M0wyIDEwLjU1QzIuMiA5IDIuNzkgNy41IDMuNyA2LjIzTTIyIDEyVjEyLjY2TDIwIDEyLjVWMTJDMjAgMTAuOTIgMTkuODEgOS44NiAxOS4zOSA4Ljg2TDIxLjIyIDguMDZDMjEuNzUgOS4zMSAyMiAxMC42NSAyMiAxMk02IDE3LjNMNC41IDE4LjYxQzMuNDcgMTcuNDMgMi43MiAxNi4wNCAyLjMgMTQuNTNMNC4xNyAxNEM0LjUzIDE1LjIyIDUuMTYgMTYuMzUgNiAxNy4zTTEyLjE0IDIySDEyQzEwLjUgMjIgOSAyMS42OCA3LjY0IDIxLjA3TDguNTMgMTkuMjRDOS42MiAxOS43NSAxMC44IDIwIDEyIDIwSDEyLjE5TTE3IDIxSDE1VjE1SDIxVjE3SDE4LjQyTDIxLjE0IDE5Ljc2TDE5LjczIDIxLjE3TDE3IDE4LjUiIC8+PC9zdmc+",
+      "name": "ObjectPickingTools",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/selection-ellipse-arrow-inside.svg",
+      "shortDescription": "Adds various object picking related tools.",
+      "version": "1.0.0",
+      "description": "Adds various actions/conditions for advanced object selection, such as picking the object with the highest/lowest zOrder, picking only a specific object out of the objects lists, unpicking all objects of a certain type...",
+      "origin": {
+        "identifier": "ObjectPickingTools",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "object",
+        "picking",
+        "instance",
+        "pick",
+        "unpick",
+        "select",
+        "deselect"
+      ],
+      "authorIds": [
+        "ZgrsWuRTAkXgeuPV9bo0zuEcA2w1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "description": "Unpicks all instances of an object.",
+          "fullName": "Unpick all instances",
+          "functionType": "Action",
+          "name": "UnpickAction",
+          "sentence": "Unpick all instances of _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;",
+                "for (const listName in lists)",
+                "    lists[listName].length = 0;",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to unpick all instances from",
+              "name": "object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Unpicks all instances of an object.",
+          "fullName": "Unpick all instances",
+          "functionType": "Condition",
+          "name": "UnpickCondition",
+          "sentence": "Unpick all instances of _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;",
+                "for (const listName in lists)",
+                "    lists[listName].length = 0;",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to unpick all instances from",
+              "name": "object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Picks the instance out of a list of objects that has the highest zOrder.",
+          "fullName": "Pick the object with highest zOrder",
+          "functionType": "Action",
+          "name": "PickHighestZAction",
+          "sentence": "Pick the _PARAM1_ with the highest zOrder",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;\r",
+                "\r",
+                "let highestObject = null;\r",
+                "let highestZOrder = -Infinity;\r",
+                "\r",
+                "for (const listName in lists) {\r",
+                "    for (const object of lists[listName]) {\r",
+                "        const zOrder = object.getZOrder();\r",
+                "        if (zOrder > highestZOrder) {\r",
+                "            highestObject = object;\r",
+                "            highestZOrder = zOrder;\r",
+                "        };\r",
+                "    }\r",
+                "    lists[listName].length = 0;\r",
+                "}\r",
+                "\r",
+                "if (highestObject !== null) lists[highestObject.getName()].push(highestObject);\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to select an instances from",
+              "name": "object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Picks the instance out of a list of objects that has the highest zOrder.",
+          "fullName": "Pick the object with highest zOrder",
+          "functionType": "Condition",
+          "name": "PickHighestZCondition",
+          "sentence": "Pick the _PARAM1_ with the highest zOrder",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;\r",
+                "\r",
+                "let highestObject = null;\r",
+                "let highestZOrder = -Infinity;\r",
+                "\r",
+                "for (const listName in lists) {\r",
+                "    for (const object of lists[listName]) {\r",
+                "        const zOrder = object.getZOrder();\r",
+                "        if (zOrder > highestZOrder) {\r",
+                "            highestObject = object;\r",
+                "            highestZOrder = zOrder;\r",
+                "        };\r",
+                "    }\r",
+                "    lists[listName].length = 0;\r",
+                "}\r",
+                "\r",
+                "if (highestObject !== null) lists[highestObject.getName()].push(highestObject);\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to select an instances from",
+              "name": "object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Picks the instance out of a list of objects that has the lowest zOrder.",
+          "fullName": "Pick the object with lowest zOrder",
+          "functionType": "Action",
+          "name": "PickLowestZAction",
+          "sentence": "Pick the _PARAM1_ with the lowest zOrder",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;\r",
+                "\r",
+                "let lowestObject = null;\r",
+                "let lowestZOrder = Infinity;\r",
+                "\r",
+                "for (const listName in lists) {\r",
+                "    for (const object of lists[listName]) {\r",
+                "        const zOrder = object.getZOrder();\r",
+                "        if (zOrder < lowestZOrder) {\r",
+                "            lowestObject = object;\r",
+                "            lowestZOrder = zOrder;\r",
+                "        };\r",
+                "    }\r",
+                "    lists[listName].length = 0;\r",
+                "}\r",
+                "\r",
+                "if (lowestObject !== null) lists[lowestObject.getName()].push(lowestObject);\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to select an instances from",
+              "name": "object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Picks the instance out of a list of objects that has the lowest zOrder.",
+          "fullName": "Pick the object with lowest zOrder",
+          "functionType": "Condition",
+          "name": "PickLowestZCondition",
+          "sentence": "Pick the _PARAM1_ with the lowest zOrder",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;\r",
+                "\r",
+                "let lowestObject = null;\r",
+                "let lowestZOrder = Infinity;\r",
+                "\r",
+                "for (const listName in lists) {\r",
+                "    for (const object of lists[listName]) {\r",
+                "        const zOrder = object.getZOrder();\r",
+                "        if (zOrder < lowestZOrder) {\r",
+                "            lowestObject = object;\r",
+                "            lowestZOrder = zOrder;\r",
+                "        };\r",
+                "    }\r",
+                "    lists[listName].length = 0;\r",
+                "}\r",
+                "\r",
+                "if (lowestObject !== null) lists[lowestObject.getName()].push(lowestObject);\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to select an instances from",
+              "name": "object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Picks the first instance out of a list of objects.",
+          "fullName": "Pick the first object",
+          "functionType": "Action",
+          "name": "PickFirstAction",
+          "sentence": "Pick the first _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;\r",
+                "\r",
+                "for (const listName in lists) {\r",
+                "    const list = lists[listName];\r",
+                "    list.length = 1;\r",
+                "}\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to select an instances from",
+              "name": "object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Picks the first instance out of a list of objects.",
+          "fullName": "Pick the first object",
+          "functionType": "Condition",
+          "name": "PickFirstCondition",
+          "sentence": "Pick the first _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;\r",
+                "\r",
+                "for (const listName in lists) {\r",
+                "    const list = lists[listName];\r",
+                "    list.length = 1;\r",
+                "}\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to select an instances from",
+              "name": "object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Picks the last instance out of a list of objects.",
+          "fullName": "Pick the last object",
+          "functionType": "Action",
+          "name": "PickLastAction",
+          "sentence": "Pick the last _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;\r",
+                "\r",
+                "for (const listName in lists) {\r",
+                "    const list = lists[listName];\r",
+                "    list[0] = list[list.length - 1];\r",
+                "    list.length = 1;\r",
+                "}\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to select an instances from",
+              "name": "object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Picks the last instance out of a list of objects.",
+          "fullName": "Pick the last object",
+          "functionType": "Condition",
+          "name": "PickLastCondition",
+          "sentence": "Pick the last _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;\r",
+                "\r",
+                "for (const listName in lists) {\r",
+                "    const list = lists[listName];\r",
+                "    list[0] = list[list.length - 1];\r",
+                "    list.length = 1;\r",
+                "}\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to select an instances from",
+              "name": "object",
+              "type": "objectList"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Picks the Nth instance out of a list of objects.",
+          "fullName": "Pick the Nth object",
+          "functionType": "Action",
+          "name": "PickNthAction",
+          "sentence": "Pick the _PARAM2_th _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;\r",
+                "const n = eventsFunctionContext.getObjectsLists(\"n\");\r",
+                "\r",
+                "for (const listName in lists) {\r",
+                "    const list = lists[listName];\r",
+                "    if (n >= list.length) continue;\r",
+                "    list[0] = list[n];\r",
+                "    list.length = 1;\r",
+                "}\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to select an instances from",
+              "name": "object",
+              "type": "objectList"
+            },
+            {
+              "description": "The place in the objects lists an instance has to have to be picked",
+              "name": "n",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Picks the Nth instance out of a list of objects.",
+          "fullName": "Pick the Nth object",
+          "functionType": "Condition",
+          "name": "PickNthCondition",
+          "sentence": "Pick the _PARAM2_th _PARAM1_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const lists = eventsFunctionContext.getObjectsLists(\"object\").items;\r",
+                "const n = eventsFunctionContext.getObjectsLists(\"n\");\r",
+                "\r",
+                "for (const listName in lists) {\r",
+                "    const list = lists[listName];\r",
+                "    if (n >= list.length) continue;\r",
+                "    list[0] = list[n];\r",
+                "    list.length = 1;\r",
+                "}\r",
+                ""
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "The object to select an instances from",
+              "name": "object",
+              "type": "objectList"
+            },
+            {
+              "description": "The place in the objects lists an instance has to have to be picked",
+              "name": "n",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    },
+    {
+      "author": "PANDAKO-GitHub",
+      "category": "Input",
+      "extensionNamespace": "",
+      "fullName": "Mouse Pointer Lock",
+      "helpPath": "https://github.com/PANDAKO-GitHub/MousePointerLockExtension",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8c3R5bGUgdHlwZT0idGV4dC9jc3MiPg0KCS5zdDB7ZmlsbDpub25lO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDoyO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2UtbWl0ZXJsaW1pdDoxMDt9DQo8L3N0eWxlPg0KPHBvbHlsaW5lIGNsYXNzPSJzdDAiIHBvaW50cz0iMTksMTkgMjQsMTkgMjQsMjQgIi8+DQo8cG9seWxpbmUgY2xhc3M9InN0MCIgcG9pbnRzPSI2LDIzIDExLDIzIDExLDE4ICIvPg0KPHBhdGggY2xhc3M9InN0MCIgZD0iTTI0LDE5LjRjLTAuNywwLjgtMS40LDEuNi0yLjIsMi40Yy03LDctMTUuMywxMC4yLTE4LjUsN3MtMC4xLTExLjUsNy0xOC41czE1LjMtMTAuMiwxOC41LTcNCgljMS40LDEuNCwxLjYsMy42LDAuOCw2LjMiLz4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMSwyMi41Yy0wLjMtMC4yLTAuNS0wLjUtMC44LTAuOGMtNy03LTEwLjItMTUuMy03LTE4LjVzMTEuNS0wLjEsMTguNSw3czEwLjIsMTUuMyw3LDE4LjUNCgljLTEuNywxLjctNC44LDEuNi04LjQsMC4xIi8+DQo8L3N2Zz4NCg==",
+      "name": "MousePointerLock",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Line Hero Pack/Master/SVG/Virtual Reality/Virtual Reality_360_rotate_vr_movement.svg",
+      "shortDescription": "This behavior removes the limit on the distance the mouse can move and hides the cursor.",
+      "version": "0.1.3",
+      "description": [
+        "This behavior removes the limit on the distance the mouse can move and hides the cursor.",
+        "",
+        "For example, a user can rotate or continue to manipulate an object by moving the mouse endlessly.",
+        "Without the pointer lock, the rotation or operation will stop the moment the pointer reaches the edge of the browser or screen.",
+        "",
+        "Game players don't have to worry about leaving the gameplay area or accidentally clicking on another application that moves the mouse focus away from the game.",
+        "",
+        "Locking the pointer locks `MouseX()` and `MouseY()` expressions.",
+        "Use `MovementX()` and `MovementY()` instead."
+      ],
+      "origin": {
+        "identifier": "MousePointerLock",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "mouse",
+        "lock",
+        "pointer"
+      ],
+      "authorIds": [
+        "Zu55H5hcb9YmZTltIVOTAFDJQyB2"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onFirstSceneLoaded",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const canvas = runtimeScene.getGame().getRenderer().getCanvas();",
+                "",
+                "gdjs._MousePointerLockExtension = {};",
+                "gdjs._MousePointerLockExtension.movement = { x: 0, y: 0 };",
+                "",
+                "canvas.addEventListener(\"mousemove\", (e) => {",
+                "    gdjs._MousePointerLockExtension.movement.x = e.movementX || 0;",
+                "    gdjs._MousePointerLockExtension.movement.y = e.movementY || 0;",
+                "}, false);"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": true
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onScenePostEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "gdjs._MousePointerLockExtension.movement = { x: 0, y: 0 };",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Get the movement of the pointer on the X-axis.",
+          "fullName": "Pointer X movement",
+          "functionType": "Expression",
+          "name": "MovementX",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "eventsFunctionContext.returnValue = gdjs._MousePointerLockExtension.movement.x || 0;",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Get the movement of the pointer on the Y-axis.",
+          "fullName": "Pointer Y movement",
+          "functionType": "Expression",
+          "name": "MovementY",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "eventsFunctionContext.returnValue = gdjs._MousePointerLockExtension.movement.y || 0;",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Lock the mouse pointer to hide it.",
+          "fullName": "Request Pointer Lock",
+          "functionType": "Action",
+          "name": "RequestPointerLock",
+          "sentence": "Request Pointer Lock",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": [
+                "const canvas = runtimeScene.getGame().getRenderer().getCanvas();\r",
+                "canvas.requestPointerLock();"
+              ],
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Unlocks the mouse pointer and show it.",
+          "fullName": "Exit pointer lock",
+          "functionType": "Action",
+          "name": "ExitPointerLock",
+          "sentence": "Exit pointer lock",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "document.exitPointerLock();",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        },
+        {
+          "description": "Check if the mouse pointer is locked.",
+          "fullName": "Pointer is locked",
+          "functionType": "Condition",
+          "name": "isPointerLocked",
+          "sentence": "The mouse pointer is locked",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::JsCode",
+              "inlineCode": "eventsFunctionContext.returnValue = document.pointerLockElement ? true : false;",
+              "parameterObjects": "",
+              "useStrict": true,
+              "eventsSheetExpanded": false
+            }
+          ],
+          "parameters": [],
+          "objectGroups": []
+        }
+      ],
+      "eventsBasedBehaviors": [],
+      "eventsBasedObjects": []
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
